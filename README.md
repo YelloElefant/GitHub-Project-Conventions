@@ -102,7 +102,7 @@ Commits will be used as follows…
 5.	As a rule of thumb, a branch should not only have 1 commit in it unless the branch/task is of such small nature that only 1 commit is needed.
 6.	Commits can be reversed with another commit; these are free to happen and don't need documentation or announcement to happen.
 
-## forks
+## Forks
 Forks will not be documented or used but I am happy if other people want to fork my project and make suggested improvements to the project, if they are small like spelling or something like that, I will accept them, but nay big change or feature will not be accepted as this is a project that needs to be developed by myself alone.
 
 ## Git flow

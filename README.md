@@ -7,13 +7,13 @@ My main tool will be git and GitHub for all management, tracking and contributio
 The main way I will see my timeline and see what needs to be done, on hold, being done, in testing, and finished is with the GitHub project which is attached to the repository that is for this project 13IA Repo. this project view is very in-depth and has a lot to it, most notably is the different views which basically incorporates different ways of seeing the project and allows me to see it in different styles and filters. The project and repo have already been set up and I have been following it so far. 
 For the views I have set up 3
 
- 
-This one is by account more specifically my home account and my school account. This allows me to see what tasks I have set to be done at home and at school or both.
+1.	By milestone
+2.	By status
+3.	By assignee
 
- 
 This is set out by Milestone (this will be explained later) but this will allow me to see what tasks need to be done and when for different stages in the project
 
- 
+
 The last one is set out by status, basically just tasks that are to do, done, testing, on hold or in progress.
 These views allow me to easily see what needs to be done and when but also be able to move things around when needed.
 
@@ -41,11 +41,6 @@ Each milestone/task will start on the Wednesday and end on the next Tuesday as t
 All tasks will be made as a GitHub issue on the repository, like so…
  
 This will automatically go into the project board and organize itself as such. Each issue will have a title (brief meaning to what it's for) and a top comment of a more descriptive meaning of what needs to be done and by when. Each issue will be tagged with a label (this will be explained later) and assigned a milestone, if a milestone is not available for the task it can be labelled as headless as a one off task or a milestone can be made for the new set of tasks and will need to be made as I have set out. If a task is to have code made or changed for it to be completed a branch can be made in accordance with Branches, this will help when I look back at tasks and I can see exactly how it was completed and what changes were made to the project as a result. Time frames for tasks can be put on when the task is made if it feels necessary to.
-
-## Work/Home tasks
-To manage what tasks will be done at school or at home will be simple, i will assign my home account or my school account or both to the task and that will be reflected in the project board.
- 
-This shows what tasks are to be done by my home account, school account or both accounts. Any task can be put on whatever account, but it will be prioritized to be on my school account.
 
 ## Testing
 All tasks will be required to have a testing time allocated; this can be a task within the issue.
@@ -103,7 +98,7 @@ Commits will be used as follows…
 6.	Commits can be reversed with another commit; these are free to happen and don't need documentation or announcement to happen.
 
 ## Forks
-Forks will not be documented or used but I am happy if other people want to fork my project and make suggested improvements to the project, if they are small like spelling or something like that, I will accept them, but nay big change or feature will not be accepted as this is a project that needs to be developed by myself alone.
+Forks will be used to make a copy of the project to be used for testing and will be used to test new features and changes to the project. Forks will be made when a new feature is ready to be tested and will be made from the dev branch. Forks will be made by me and will be used to test new features and changes to the project. Forks will be made when a new feature is ready to be tested and will be made from the dev branch. Forks will be made by me and will be deleted after the testing is done and the feature is ready to be merged into the dev branch. if other people are to fork my project they will need to be approved by me and will need to be deleted after the testing is done and the feature is ready to be merged into the dev branch.
 
 ## Git flow
 Git flow will be used for this project and will be as follows…
@@ -132,7 +127,7 @@ This will be the merge of one branch into another, pull requests will be made wh
 
  
  
-Pull requests can be either accepted or rejected, if accepted the branch will be deleted and the changes will be applied to the destination branch, a pull request will show all participants of the branch (commenters, committers, contributors) pull requests will be added to the project board, as they will be assigned labels, a project, milestone, and reviewers (this will be done at school and not at home). They can also be assigned issues to close so that when a pull request is accepted it will close any tasks related to it.
+Pull requests can be either accepted or rejected, if accepted the branch will be deleted and the changes will be applied to the destination branch, a pull request will show all participants of the branch (commenters, committers, contributors) pull requests will be added to the project board, as they will be assigned labels, a project, milestone, and reviewers. They can also be assigned issues to close so that when a pull request is accepted it will close any tasks related to it.
 If rejected a reason must be given and new issues/tasks will need to be made to fix the rejection.
 Pulls can be requested to be looked at by the stakeholder and will need to be scheduled for the next meeting.
 
@@ -142,6 +137,9 @@ Hot fixes may happen, but all efforts will be to minimize this, if they do happe
 ## Iterations
 Testing iterations will be made at intervals and will be used to test parts of the project, each testing iteration will last 3 cycles of length decided in the moment, a task for each milestone or feature will be made to show what is going to get tested in that cycle, multiple will be made is more testing is needed over the iteration cycles.
 1 testing iteration has been made just before the due date of the project; this will be used as a full testing cycle to test, debug and receive feedback on the project and each of its parts.
+
+## Merges
+Merges will be used to merge branches together, this will be done when a feature is ready to be tested and reviewed, this will be done by a pull request and will be reviewed by a colleague and the stakeholder. when a feature gets merged into the dev branch all other feature branches will be merged with the dev branch to ensure that all new features are up to date with the latest version of the project.
 
 ## Merge conflicts
 Merge conflict may happen when multiple features are being pulled, this will invoke that a new task is made to fix the conflict. This is not an important task as multiple features can be worked on at a time if needed and merging to other branches is not a big deal. Unless it is a component merging back to the feature branch this will need to be sorted ASAP to allow for the continuation of the project.
